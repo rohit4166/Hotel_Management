@@ -13,10 +13,10 @@
                                                                               ✔ 2. Order your Food
                                                                               ✔ 3. Room_INFO
                                                                               ✔ 4. Booking Room
-                                                                              ✔ 5. View Custmor_Old Record(By Adhar_Id)
-                                                                              ✔ 6. View Custmor_Old Record (By Date)
-                                                                              ✔ 7. Count Custmour Visiting Time
-                                                                              ✔ 8. Update Custmour Record
-                                                                              ✔ 9. Delete Custmour Record
+                                                                              ✔ 5. View Customer_Old Record(By Adhar_Id)
+                                                                              ✔ 6. View Customer_Old Record (By Date)
+                                                                              ✔ 7. Count Customer Visiting Time
+                                                                              ✔ 8. Update Customer Record
+                                                                              ✔ 9. Delete Customer Record
                                                                               ✔ 0. Exit
         
