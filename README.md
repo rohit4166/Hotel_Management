@@ -9,7 +9,7 @@
   of option from given option it will perform different operation.
 
   This project is capable to perform following Functionality over Customer's Data:
-                                                                              ✔ 1. Custmor Entry
+                                                                              ✔ 1. Customer Entry
                                                                               ✔ 2. Order your Food
                                                                               ✔ 3. Room_INFO
                                                                               ✔ 4. Booking Room
