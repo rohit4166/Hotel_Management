@@ -30,3 +30,7 @@
 
 ![11](https://github.com/rohit4166/Hotel_Management/assets/129392163/073d8fd3-aeea-4091-8e5c-f860efb9bd4b)
 ![12](https://github.com/rohit4166/Hotel_Management/assets/129392163/91038e2a-a180-4e0a-981a-1c3169b1af38)
+![13](https://github.com/rohit4166/Hotel_Management/assets/129392163/c7b1718d-0e69-4b3e-84c3-59c3b2f5ff42)
+![14](https://github.com/rohit4166/Hotel_Management/assets/129392163/6af08e74-cee0-44ea-b31b-cfa281bd27b0)
+![15](https://github.com/rohit4166/Hotel_Management/assets/129392163/d5ac95bf-3000-4fbf-b58a-61ee9abae487)
+![16](https://github.com/rohit4166/Hotel_Management/assets/129392163/7ff54909-e388-4192-bfc9-9c8aeaafc682)
