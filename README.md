@@ -20,3 +20,13 @@
                                                                               ✔ 9. Delete Customer Record
                                                                               ✔ 0. Exit
         
+
+
+![8](https://github.com/rohit4166/Hotel_Management/assets/129392163/ed948050-e6f8-4c09-8bde-9ed168fe56e9)
+
+![9](https://github.com/rohit4166/Hotel_Management/assets/129392163/d63ce23c-07eb-413c-8ac1-d5f51b6f4fc5)
+
+![10](https://github.com/rohit4166/Hotel_Management/assets/129392163/019ecb27-74b7-44e5-9c6b-3fd7dfac2d79)
+
+![11](https://github.com/rohit4166/Hotel_Management/assets/129392163/073d8fd3-aeea-4091-8e5c-f860efb9bd4b)
+![12](https://github.com/rohit4166/Hotel_Management/assets/129392163/91038e2a-a180-4e0a-981a-1c3169b1af38)
