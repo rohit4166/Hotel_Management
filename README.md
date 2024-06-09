@@ -39,16 +39,13 @@
                                                                               ✔ 0. Exit
         
 
+ 
+![Screenshot (13)](https://github.com/rohit4166/Hotel_Management/assets/129392163/aa466c0a-2543-412f-83c0-2cf3d2a1094e)
 
-![8](https://github.com/rohit4166/Hotel_Management/assets/129392163/ed948050-e6f8-4c09-8bde-9ed168fe56e9)
+![Screenshot (14)](https://github.com/rohit4166/Hotel_Management/assets/129392163/a34c0062-fdaa-499d-8881-85e15ad3e10d)
 
-![9](https://github.com/rohit4166/Hotel_Management/assets/129392163/d63ce23c-07eb-413c-8ac1-d5f51b6f4fc5)
+![Screenshot (15)](https://github.com/rohit4166/Hotel_Management/assets/129392163/ef32f5cd-f9f5-4a25-bd75-19b996426bf7)
 
-![10](https://github.com/rohit4166/Hotel_Management/assets/129392163/019ecb27-74b7-44e5-9c6b-3fd7dfac2d79)
+![Screenshot (16)](https://github.com/rohit4166/Hotel_Management/assets/129392163/b89cf169-a41f-4fc7-be09-ea5e56647018)
 
-![11](https://github.com/rohit4166/Hotel_Management/assets/129392163/073d8fd3-aeea-4091-8e5c-f860efb9bd4b)
-![12](https://github.com/rohit4166/Hotel_Management/assets/129392163/91038e2a-a180-4e0a-981a-1c3169b1af38)
-![13](https://github.com/rohit4166/Hotel_Management/assets/129392163/c7b1718d-0e69-4b3e-84c3-59c3b2f5ff42)
-![14](https://github.com/rohit4166/Hotel_Management/assets/129392163/6af08e74-cee0-44ea-b31b-cfa281bd27b0)
-![15](https://github.com/rohit4166/Hotel_Management/assets/129392163/d5ac95bf-3000-4fbf-b58a-61ee9abae487)
-![16](https://github.com/rohit4166/Hotel_Management/assets/129392163/7ff54909-e388-4192-bfc9-9c8aeaafc682)
+![Screenshot (17)](https://github.com/rohit4166/Hotel_Management/assets/129392163/a8d64085-e47c-4e76-b6fd-83918175ba41)
