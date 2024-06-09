@@ -4,18 +4,18 @@ class hotel:
         import mysql.connector as con
         
         
-        ad=con.connect(host='localhost',user='root',password='root')
+        ad=con.connect(host='localhost',user='root',password='admin')
         self.cur=ad.cursor()
         try:
             self.cur.execute('create database db28')
             print(' Your Database Is Created Successfully...')
             print()
             print()
-            self.ad=con.connect(host='localhost',user='root',password='root',database='db28')
+            self.ad=con.connect(host='localhost',user='root',password='admin',database='db28')
             self.cur=self.ad.cursor()
             h1.home()
         except Exception:
-            self.ad=con.connect(host='localhost',user='root',password='root',database='db28')
+            self.ad=con.connect(host='localhost',user='root',password='admin',database='db28')
             self.cur=self.ad.cursor()
             print(' Your Database Is In Ready Position Successfully...')
             print()
@@ -37,15 +37,15 @@ class hotel:
         print()
         print('*****❤❤❤❤❤*****❤❤❤❤❤*****❤❤❤❤❤*****❤❤❤❤❤******************************WELCOME IN YASH HOTEL***********************************❤❤❤❤❤*****❤❤❤❤❤*****❤❤❤❤❤*****❤❤❤❤❤*****')
         print('')
-        print('                                                                       ✔ 1. Custmor Entry')
+        print('                                                                       ✔ 1. Customer Entry')
         print('                                                                       ✔ 2. Order your Food')
         print('                                                                       ✔ 3. Room_INFO')
         print('                                                                       ✔ 4. Booking Room')
-        print('                                                                       ✔ 5. View Custmor_Old Record(By Adhar_Id)')
-        print('                                                                       ✔ 6. View Custmor_Old Record (By Date)')
-        print('                                                                       ✔ 7. Count Custmour Visiting Time')
-        print('                                                                       ✔ 8. Update Custmour Record')
-        print('                                                                       ✔ 9. Delete Custmour Record')
+        print('                                                                       ✔ 5. View Customer_Old Record(By Adhar_Id)')
+        print('                                                                       ✔ 6. View Customer_Old Record (By Date)')
+        print('                                                                       ✔ 7. Count Customer Visiting Time')
+        print('                                                                       ✔ 8. Update Customer Record')
+        print('                                                                       ✔ 9. Delete Customer Record')
         print('                                                                       ✔ 0. Exit')
         print()
         print()
@@ -130,7 +130,7 @@ class hotel:
             print()
             print()
             print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -')
-            print('Do You Want to Save This Custmor Record?')
+            print('Do You Want to Save This Customer Record?')
             print('press 1 for YES')
             print('press 2 for NO')
             try:
@@ -296,7 +296,7 @@ class hotel:
     
     def C_Entryz(self):
         print()
-        print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Welcome For Custmor Entry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        print('!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Welcome For Customer Entry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print()
         h1.getName()
          
@@ -314,7 +314,7 @@ class hotel:
         print()
         print()
         print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ')
-        print('Do You Want to Save This Custmor Record?')
+        print('Do You Want to Save This customer Record?')
         print('Only press 1 for Saving Record')
         #print('press 2 for NO')
         try:
@@ -350,7 +350,7 @@ class hotel:
         print('Your  Entered Choice is Invalid.')
         print('Please Enter Correct Choice')
         print()
-        print('Do You Want to Save This Custmor Record in Database?')
+        print('Do You Want to Save This customer Record in Database?')
         print('Compulsory press 1 for YES ')
         #print('Press 2 for NO')
         print()
@@ -375,7 +375,7 @@ class hotel:
         print('Your  Entered Choice is Invalid.')
         print('Please Enter Correct Choice')
         print()
-        print('Do You Want to Save This Custmor Record in Database?')
+        print('Do You Want to Save This customer Record in Database?')
         print('press 1 for YES')
         print('Press 2 for NO')
         print()
@@ -500,7 +500,7 @@ class hotel:
         print()
         print('- - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - - - - - - - -')
         print()
-        print('Do You Want to Save This Custmor Record in Your Database?')
+        print('Do You Want to Save This customer Record in Your Database?')
         print('press 1 for YES')
         print('press 2 for NO')
         print()
@@ -526,7 +526,7 @@ class hotel:
         print()
         try:
         
-            self.amnt=int(input('Please Enter Total Amount Of Custmor='))
+            self.amnt=int(input('Please Enter Total Amount Of customer='))
         except ValueError:
             print('Sorry..')
             print('Please Enter Valid Amount')
@@ -719,7 +719,7 @@ class hotel:
         print('Please try again.')
         print('- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ')
         print()
-        print('Do You Want to Save This Custmor Record?')
+        print('Do You Want to Save This customer Record?')
         print('press 1 for YES')
         print('press 2 for NO')
         print()
@@ -761,7 +761,7 @@ class hotel:
     def O_record(self):
         print()
         print('- - - - - - - - - - - - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - --')
-        print('Do You Want to see old Record of Custmor?')
+        print('Do You Want to see old Record of customer?')
         print('press 1 for YES')
         print('press 2 for NO')
         print()
@@ -791,8 +791,8 @@ class hotel:
         print()
         print('Please Do Select Valid Option..')
         print()
-        print('press 1 for See All Custmor Record')
-        print('press 2 for see Specific Custmor Record')
+        print('press 1 for See All customer Record')
+        print('press 2 for see Specific customer Record')
         print()
         self.l=0
         try:
@@ -899,7 +899,7 @@ class hotel:
                 print()
             print()
             print(self.l,'rows are affected')
-            print('Total Amount Of All Custmor=',self.tot)
+            print('Total Amount Of All customer=',self.tot)
             
         else:
    
@@ -1038,7 +1038,7 @@ class hotel:
         
         print()
         h1.getid()
-        print('Is This Custmor Of Id ',self.id1,'Was Visit TO Your Hotel before This?')
+        print('Is This customer Of Id ',self.id1,'Was Visit TO Your Hotel before This?')
         print('Press 1 If YES') 
         print('Press 2 If NO')
         print()
@@ -1070,7 +1070,7 @@ class hotel:
                 print()
                 print('Sorry...')
                 print('Details Is Not Present For',self.id1,'In Database')
-                print('Do Custmor_Entry Now.')
+                print('Do customer_Entry Now.')
                 h1.C_Entryz()
                 x='select * from table1'
                 self.cur.execute(x)
@@ -1112,7 +1112,7 @@ class hotel:
         
         
                 print()
-                print('Details For ',self.id1,'Is Not present In Database.Do Custmor_Entry Now.')
+                print('Details For ',self.id1,'Is Not present In Database.Do customer_Entry Now.')
                 print('And After That Order Food For ',self.id1 )
                 h1.C_Entryz()
                 x='select * from table1'
@@ -1155,7 +1155,7 @@ class hotel:
     def  B_Room(self):
         print()
         h1.getid()
-        print('Is This Custmor Of Id',self.id1,' Was Visit Your Hotel Before This?')
+        print('Is This customer Of Id',self.id1,' Was Visit Your Hotel Before This?')
         print('Press 1 If YES')
         print('Press 2 If NO')
         print()
@@ -1187,7 +1187,7 @@ class hotel:
                 print()
                 print('Sorry...')
                 print('Details Is Not Present For',self.id1,'In Database')
-                print('Please Do Custmor_Entry For ',self.id1,' Now.')
+                print('Please Do customer_Entry For ',self.id1,' Now.')
                 h1.C_Entryz()
                 x='select * from table1'
                 self.cur.execute(x)
@@ -1227,8 +1227,8 @@ class hotel:
                 print('Details For Id',self.id1,'Is Not Present In Database')
          
                 print()
-                print('Do Custmor_Entry For Id',self.id1,' Now.')
-                print('And After That Book Room For This Custmor.')
+                print('Do customer_Entry For Id',self.id1,' Now.')
+                print('And After That Book Room For This customer.')
                 h1.C_Entryz()
                 x='select * from table1'
                 self.cur.execute(x)
@@ -1611,7 +1611,7 @@ class hotel:
             
         else:
                 
-                print('This Following Is All Custmor Record Of Date=',self.Date)
+                print('This Following Is All customer Record Of Date=',self.Date)
                 print()
                 print('^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^')
                 
